@@ -35,7 +35,6 @@ In a text file `assignment1.txt`, answer the following questions:
 
 4. What is the difference between ++var and var++?
 
-
 # Submission Requirements
 Please include your name and a description in a comment at the top of your code files.  Please also include your name at the top of your assignment1.txt file.
 

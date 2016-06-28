@@ -1,3 +1,4 @@
+Jack Rosen
 1. The significance of "return 0" is that since the main method is an integer method, so it needs to return no errors. It is needed since the standard is to make the main method as an  integer method.
 2. There are two things incorrect with this code. First, to reference a float point, use %f, not %d. The other mistake is that there is no return 0 statement.
 3.This will not produce the correct answer since multiplication and division are done from left to right, so it will first be G * m and then the product divided by r. You want the r to be multiplied by itself first.

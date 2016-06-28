@@ -5,7 +5,7 @@ Get comfortable with simple output, variables, and data types by practicing them
 Learn how to submit assignments on GitHub.
 
 ### Part 1
-Write a program `initials.c` to print your initials formed by rows of asterisks, for instance:
+Write a program `initials.c` to print your initials formed by rows of asterisks.  For instance:
 ```
       ***         ***     ***
       ***         ***     ***

@@ -1,0 +1,11 @@
+Sean Kee
+
+1. The significance of "return 0;" at the end of the main program is that every time the program is run and returns 0, it signifies that there were no errors. It is not actually needed for certain versions of C, like C99, because the "return 0;" at the end of int main is already implemented by default.
+
+2. Depending on your version of C, omitting the "return 0;" might be a problem, especially when detecting errors.
+
+3. There is a set of parenthesis missing from the r^2. If you were to run this code, it would multiply -G by m, then divide by r, then multiply by r again, producing an incorrect answer. Parenthesis around the (r*r) ensures that -G m will be divided by the r^2, not 2r (Order of Operations). Also, there is a missing semicolon; after the entire equation, which is required after the end of every piece of code written in C. Correct implementation:
+
+g = -G * m / (r*r)
+
+4. The difference between ++var and var++ is that ++var adds to the variable BEFORE the operation occurs. var++ adds to the variable AFTER the operation occurs. For example, if n started off at 1, ++n would equal 2, while n++ would still equal 1. Both operations would output 2, however it's just a matter of WHEN the extra value is added.

@@ -1,4 +1,4 @@
-# Assignment1
+# Assignment 1
 
 ## Objectives
 Get comfortable with simple output, variables, and data types by practicing them in a simple program.
@@ -39,4 +39,4 @@ In a text file `assignment1.txt`, answer the following questions:
 # Submission Requirements
 Please include your name and a description in a comment at the top of your code files.  Please also include your name at the top of your assignment1.txt file.
 
-All files must be submitted via GitHub by 10:00am 6/29
+All files must be submitted via GitHub by 10:00am 6/29.

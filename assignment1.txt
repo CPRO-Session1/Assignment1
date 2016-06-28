@@ -7,4 +7,4 @@
 3. In order to divide correctly you need to have parenthesis around the numerator and denomenator. Also if you want to have a decimal answer you'd need to define it as a float. If you do not use parenthesis it will divide m/r before multiplying or squaring.
 
 
-4. ++var and var++ add in different orders. If you use ++var it will add 1 before whereas var++ add in the next action.
+4. ++var and var++ add in different orders. If you use ++var it will add 1 before whereas var++ add in the next action. Unless they are used with something else on a line, they are the same thing. So if you're just returning var++ or ++var you'll see the same thing. 

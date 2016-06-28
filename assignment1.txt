@@ -1,0 +1,10 @@
+1. The return zero is used because it tells the compiler that the code is done. Every time the code runs it checks for errors and the 0 tells the compiler that the program worked if it reached the 0.
+
+
+2. I don't see anything wrong with the code
+
+
+3. In order to divide correctly you need to have parenthesis around the numerator and denomenator. Also if you want to have a decimal answer you'd need to define it as a float. If you do not use parenthesis it will divide m/r before multiplying or squaring.
+
+
+4. ++var and var++ add in different orders. If you use ++var it will add 1 before whereas var++ add in the next action. Unless they are used with something else on a line, they are the same thing. So if you're just returning var++ or ++var you'll see the same thing. 

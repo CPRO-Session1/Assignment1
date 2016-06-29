@@ -1,3 +1,4 @@
+Christopher Liu
 1. The return 0; at the end of the main() signifies that the function has completed with error 0, which is no error. Technically it is not needed for most compilers.
 2. the *r at the end should be /r as otherwise it will multiply instead of divide twice
 3. %d is for integers, for floats you would use %f

@@ -1,0 +1,11 @@
+Yael Kelmer 
+
+1.The significance of return 0; is to return the value of  0 to let the computer know that the function has run completely. However, at this point in           technology, compilers are advanced enough to send this 0 to the computer without the user typing return 0;. For this reason, it is not really necessary to put  return 0;, but it is a good habit to have. 
+
+2.The code contains "%d", but the variable that is defined is a float. The      command "%d" calls on a variable that is a digit (integer), which the float is  not (41.5). In order to call the right variable, the code would have to say "%f" instead of "%d".
+
+3. This implementation of the equation g = -G m / r^2 is incorrect. It is       incorrect, because the implementation of the equation is missing parentheses.   The way the equation is implemented right now, -G would be multiplied by m and  that would be divided by r which would be multiplied by r. But we want -G*m to  be divided by r^2. The correct implementation of this equation is                g = (-G*m) / (r*r) .
+
+4. The difference between ++var and var++ is that when ++var is executed, the   var will increase by 1 and will show the value of var+1, but when var++ is
+executed the original value of var will be used and only after that, will it be incremented by 1. In addition, in a sequence of operations, var++ would be      executed before ++var. 
+

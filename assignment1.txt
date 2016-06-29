@@ -1,0 +1,20 @@
+1. What is the significance of return 0; at the end of the main program? Is it  really needed?
+The main function needs to return a number because ANSI standards dictate that
+main() must be preceded by int. The function returns 0 becasue that indicates   nothing went wrong during the course of main. None of this is really neccesary  for the code to function, it's just a standard put in place.  
+2. What, if anything is wrong with the following code?
+int main() {
+	float x = 41.5;
+	printf("The value of x is %d", x);
+}
+In the printf statement, %d is being used to try and represent something that isnot an integer variable. %f should be used to represent x because it is a float 
+value. There is also not a return statement, which is neccesary since there is
+int preceding main().
+3. What, if anything, is wrong with this implementation of the equation
+g = -G m/r^2 (the gravitational field equation)?
+	g = -G * m/ r * r
+The value would not be computed correctly because due to order of operations,
+-G would be multiplied by m, then divided by r, then multiplied by r, which     
+isn't the correct order of operations. A quick fix is to put the r * r in       
+parentheses.
+4. What is the difference between ++var and var++?
+Depending one whether the operand is a prefix or postfix the order of operationsis changed. If the operand is postfix, the order is from right to left. If the  operand is prefix, the order is from left to right.

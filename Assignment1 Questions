@@ -1,0 +1,13 @@
+/* Matthew Danielson
+*  6/28/16
+* Part 2: Answers to Questions
+* Note: Sorry this is a touch late, I needed some help wthi uploading to github
+*/
+
+1) There are no static voids in C, and any method you run needs to have a return statement.  Additionally, it denotes that there are no errors for the computer to take note of.
+
+2) No return statement; a integer method is being run, thus an integer must be returned. While not strictly necessary, not including this can cause erros.
+
+3) The r's being multipled must be in parenthesis, otherwise they do not actually divide by r^2, but simply reduce out due to order of operations.
+
+4) The [var]++ operator increment the value of said [var] by one, like the ++[var] operator. However, the order in which the actions are executable is different, so they serve different purposes when they another variable is being set to the result of this operation, the difference being that they work in inverse orders.

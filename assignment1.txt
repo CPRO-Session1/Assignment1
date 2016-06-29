@@ -14,10 +14,8 @@ int a = 0, var = 0;
 
 a = ++var;
 The value of var is incremented, then its value is assigned to a.
-The new values of the variables are:
-a = 1 and var = 1
+The new values of the variables are: a = 1 and var = 1
 
 a = var++;
 The value of var is assigned to a, then var is incremented by 1.
-The new values of the variables are:
-a = 0 and var = 1
+The new values of the variables are: a = 0 and var = 1

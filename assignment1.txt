@@ -4,7 +4,7 @@ Julia Tan
 
 2. Instead of "%d", it should say "%f" because the variable 'x' is a float, not an integer.
 
-3. "r * r" should be in brackets so that the denominator of the fraction in the right side of the equation is "r^2" not "r". (Program reads left to right)
+3. "r * r" should be in parentheses so that the denominator of the fraction in the right side of the equation is "r^2" not "r". (Program reads left to right)
 
 4. ++var is a prefix operator, while var++ is a postfix operator.
 They both increase the value of var by 1. However, the order of the increment and the value assignment differs.

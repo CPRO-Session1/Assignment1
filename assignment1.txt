@@ -1,3 +1,6 @@
+Bettina Benitez
+Assignment1 Part 2
+
 1. what is the significance of `return 0;` at the end of the main program?  Is it actually needed?
 
 it checks whether the main function exit is successful.

@@ -1,0 +1,7 @@
+1. The 'return 0' at the end of the code tells the compiler that the code is done. Since main is initialized as an int, it needs the 0 to tell the compiler it can stop compiling.
+
+2. The code doesn't have '#include <stdio.h>' so it does not import the standard input/output library. Also, since x is declared as a float, the print line should use %f instead of %d.
+
+3. The equation as written incorrectly uses the order of operations. Instead, the equation should use parentheses after the -G so that it reads g = -G (m/r^2).
+
+4. ++var and var++ are very similar except the first uses prefix notation while the other uses postfix so the first returns the value after incrementing while the second returns the value before incrementing (so the value of var is different).

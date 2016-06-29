@@ -2,7 +2,7 @@ Julia Tan
 
 1. The 'return 0' at the end of the program is a convention that represents the success of the program. It is required for C programs.
 
-2. Instead of "%d", it should say "%f" because the variable 'x' is a float, not a double.
+2. Instead of "%d", it should say "%f" because the variable 'x' is a float, not an integer.
 
 3. "r * r" should be in brackets so that the denominator of the fraction in the right side of the equation is "r^2" not "r". (Program reads left to right)
 

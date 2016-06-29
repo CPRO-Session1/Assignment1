@@ -13,7 +13,7 @@ it checks whether the main function exit is successful.
         printf("The value of x is %d", x);
     }
     ```
-In the line printf("This value of x is %d", x" the letter "d" should be replaced with "f" because x is a float not a double.
+In the line printf("This value of x is %d", x); the letter "d" should be replaced with "f" because when printing variables, %d is used for integers, %c is for characters and %f is for decimals (float). In this case, x is a float not a integer.
 
 3.  What, if anything, is wrong with this implementation of the equation g = -G m / r^2 (the gravitational field equation)?
 

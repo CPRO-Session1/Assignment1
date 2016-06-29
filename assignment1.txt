@@ -1,0 +1,11 @@
+Clarke Littlejohn
+
+1) The significance of return 0 is that it allows for the person to see if the code compiled correctly.
+ An integer needs to be returned if the function is delcared "int function".
+
+2) The issue in the code is that the operator is wrong; the operator should be "%f" instead "%d".
+
+3) The issue with that implementation of the equation is the computer wil divide the product of -G and m by r the multiply that number by.
+so the r squared acts like a times 1 instead of r squared. To fix this parenthesis should be put around the r*r.
+
+4) ++v change the value of the variable first while v++ does it after. 

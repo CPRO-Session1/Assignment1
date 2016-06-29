@@ -1,0 +1,25 @@
+1.What is the significance of return 0; at the end of the main program? Is it actually needed?
+Answer:
+The ANSI definition requires int preceding main. Hoever, since many compilars can trun off ANSI compatibility, it's not actually needed.
+
+
+2.What, if anything, is wrong with the following code?
+
+int main() {  
+    float x = 41.5;  
+    printf("The value of x is %d", x);  
+}  
+Answer:
+%d is stands for the integer, while x is a float. If the code runs, the .5 will not be showed, and 41 is not the real value of x.
+
+
+3.What, if anything, is wrong with this implementation of the equation g = -G m / r^2 (the gravitational field equation)?
+g = -G * m / r * r
+Answer:
+The G and g are vectors, but m or r is not.
+
+
+4.What is the difference between ++var and var++?
+Answer:
+If y=++var, y=var+1, var=var+1;
+If y=var++, y=var, var=var+1.

@@ -1,0 +1,15 @@
+Harry Brickner
+
+1) It isn't required, but it's probably considered bad etiquette to leave it out. If it's anything like java's System.exit, the number returned should probably have something to do with the reason that the program is exiting. 0 means it is ending willingly, whereas other numbers might correspond to error messages.
+
+2) X is a float, but it is being printed as an integer. This shouldn't throw any errors (as far as I know) but the message claims that it is printing the value of x rather than the rounded value... Also, it's missing the return 0, which isn't necessary but it's bad etiquette to leave it out, probably
+
+
+3) The "m / r * r" bit. The division will occur before the multiplication, meaning that will be the equivalent of "(m * r)/r" aka "m"
+
+4) 
+int a = 0;
+int b = 0;
+printf(++a); /* Prints "1" */
+printf(b++); /* Prints "0" */
+printf(b); /* Prints "1" */

@@ -1,0 +1,5 @@
+Rumeet Goradia
+1. The line "return 0;" terminates the program. It is not actually required, but if one wants to follow ANSI standards, then one must use it. 
+2. The variable x is a floating-point variable, but the print statement is calling it as an integer variable with the "%d."
+3. Based on order of operations, the program would multiple (-G*m/r) by r instead of squaring the r in the denominator.
+4. The var++ and the ++var do not mean different things if they are in a line alone, but in order of operations, the var++ would take precedence over the ++var.

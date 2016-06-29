@@ -1,0 +1,10 @@
+Ava
+Assignment 1
+June 28, 2016
+  1. "Return 0;" marks the end of the main function.
+
+  2. On the third line, %d is for integers, and 41.5 is a float (decimal), therefore %d should be replaced with %f.
+
+  3. The issue with the implementation of the gravitational field equation is that the denominator in the equation is r as opposed to r^2. 
+
+  4. The difference between v++ and ++v is that var++ returns var before the  increment, and ++var returns var after the increment.

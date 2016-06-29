@@ -1,0 +1,13 @@
+Olivier Gabison - Answers to Part 2.
+
+1. return 0; represents a return from the main function; which gives your computer an exit value.
+2. Code:
+int main() {
+    float x = 41.5;
+    printf("The value of x is %d", x);
+}
+Error: In C, %d is used for integers, in this case it's using it for floats which is not correct.
+3. The order of operations are incorrect here.
+
+4. The difference of var++ and ++var is that when using them, for var++ the result given to you is the variable before
+incrementing. And ++var is the result of the variable after incrementing.

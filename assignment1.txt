@@ -1,0 +1,9 @@
+Christopher Liu
+1. The return 0; at the end of the main() signifies that the function has completed with error 0, which is no error. Technically it is not needed for most compilers.
+2. the *r at the end should be /r as otherwise it will multiply instead of divide twice
+3. %d is for integers, for floats you would use %f
+4. var++ will increment after, ++var will increment before. for example, if you have
+	int a = 0, b = 2
+	if you did a = ++b it will return 3
+	a = b++ will return 2
+++var is called pre-increment, var++ is post-increment.

@@ -1,0 +1,5 @@
+Lloyd Page
+1. The significance of return 0; at the end of the main program is to return that there have been zero errors within the main method. It is needed as long as the main was declared as int main(), if the main was declared as void main(), having the return 0; would return an error.
+2. It will be outprinting 41, as %d is used for ints. should replace %d with %f.There is also no return for the main function, generating an error, this can be solved by adding return 0 to the end before the closing curly bracket. There is also no #include <stdio.h>, which means the printf function would not work.
+3. It should be g=-G*m/r/r due to the order of operations and their direction
+4. location in the order of operations, var++ goes before ++var.

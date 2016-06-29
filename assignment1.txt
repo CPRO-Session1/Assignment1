@@ -1,0 +1,5 @@
+1. If the code has been executed in the way it was meant to, the function return 0; tells the OS so. If the return value is 1, it implies there was a problem in the execution of the program 
+2. x is a floating point number, which means it has a decimal value. The use of the command %d instructs the program to output an integer value, which x is not
+3.The equation would first divide m/r, which would result in the wrong answer
+4. When ++ is placed before var, in prefix, the variable is incremented by 1    before it is used in an expression. When the ++ is placed after var, in postfix,the variable is first used in the expression, and then incremented by 1
+  

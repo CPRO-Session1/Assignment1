@@ -1,0 +1,39 @@
+Bettina Benitez
+Assignment1 Part 2
+
+1. what is the significance of `return 0;` at the end of the main program?  Is it actually needed?
+
+it checks whether the main function exit is successful.
+
+2.  What, if anything, is wrong with the following code?
+
+    ```c
+    int main() {
+        float x = 41.5;
+        printf("The value of x is %d", x);
+    }
+    ```
+In the line printf("This value of x is %d", x); the letter "d" should be replaced with "f" because when printing variables, %d is used for integers, %c is for characters and %f is for decimals (float). In this case, x is a float not a integer.
+
+3.  What, if anything, is wrong with this implementation of the equation g = -G m / r^2 (the gravitational field equation)?
+
+    g = -G * m / r * r
+
+Because the program reads from left to right, it will solve [ -G * m/r ] then multiply that by r. Instead, it should solve [ -G * m] then divide it by [r *r ]
+
+4. What is the difference between ++var and var++?
+int x = 0; 
+int var = 0;
+x = ++var;
+
+returns x = 1;
+returns var = 1;
+
+int x = 0;
+int var = 0;
+var++;
+
+returns x = 0;
+returns var = 1;
+
+++var is a prefix operator, therefore, var is incremented BEFORE its value is set to x. However, var++ is a postfix operator, therefore, it increments the value of var AFTER its value is set to x. Hence x returns different values in each example.
